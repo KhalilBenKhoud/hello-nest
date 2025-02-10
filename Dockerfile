@@ -8,5 +8,5 @@ RUN npm ci
 COPY . .
 # Build the application
 RUN npm run build
-EXPOSE 3000
+EXPOSE 3011
 CMD ["node", "dist/main"]
